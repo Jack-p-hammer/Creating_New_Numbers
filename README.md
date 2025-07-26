@@ -1,4 +1,4 @@
-# Creating New Numbers
+# Using ML/AI to Create New Numbers
 
 A machine learning project that demonstrates digit classification and generation using MNIST dataset with PyTorch and creates new digits with a variational autoencoder
 
