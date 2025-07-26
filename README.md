@@ -23,17 +23,17 @@ This project has two main components:
 - **Latent Space**: 2-dimensional for easy visualization
 - **Architecture**: Encoder-decoder with reparameterization trick
 - **Training**: 20 epochs with custom VAE loss function
-- **Interactive**: Mouse-hover visualization of latent space
+- **Interactive**: Mouse-hover visualization of latent space <br>
+<img width="1065" height="849" alt="Screenshot 2025-07-26 170519" src="https://github.com/user-attachments/assets/4d758b42-07e5-4a16-8323-573798ea839a" />
+
+
+
+
 Look a new number! I'll call it Zleven:
+
+
 <img width="236" height="247" alt="Zleven" src="https://github.com/user-attachments/assets/b141a8c8-0a04-4df2-8281-77e5aaecce3b" />
 
-## Requirements
-
-- Python 3.x
-- PyTorch
-- NumPy
-- Matplotlib
-- CUDA-compatible GPU (optional, falls back to CPU)
 
 ## Key Components
 
