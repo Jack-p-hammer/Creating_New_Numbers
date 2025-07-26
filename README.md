@@ -7,24 +7,7 @@ A machine learning project that demonstrates digit classification and generation
 This project has two main components:
 1. **CNN Digit Classifier** - A convolutional neural network for digit recognition
 2. **VAE (Variational Autoencoder)** - A generative model for creating new digit images
-
-## Project Structure
-
-```
-Creating_New_Numbers/
-├── Making_New_Numbers.ipynb    # Main Jupyter notebook with implementation
-├── test.py                      # CUDA/GPU compatibility test
-├── models/                      # Saved model files
-│   ├── cnn_classifier.pt       # Trained CNN classifier
-│   └── vae.pt                  # Trained VAE model
-├── mnist_data/                 # MNIST dataset files
-│   ├── train-images.idx3-ubyte
-│   ├── train-labels.idx1-ubyte
-│   ├── t10k-images.idx3-ubyte
-│   └── t10k-labels.idx1-ubyte
-└── CNN_Example_Predictions.png # Example predictions visualization
-```
-
+   
 ## Features
 
 ### CNN Digit Classifier
@@ -32,6 +15,8 @@ Creating_New_Numbers/
 - **Training**: 10 epochs with Adam optimizer
 - **Performance**: Achieves low loss (~0.0087) on training data
 - **Output**: Classifies digits 0-9 with high accuracy
+<img width="2021" height="228" alt="Screenshot 2025-07-26 164622" src="https://github.com/user-attachments/assets/5970f61c-148a-49df-9e96-6c3809eec3e5" />
+
 
 ### VAE (Variational Autoencoder)
 - **Purpose**: Generate new digit images by learning latent representations
@@ -39,6 +24,8 @@ Creating_New_Numbers/
 - **Architecture**: Encoder-decoder with reparameterization trick
 - **Training**: 20 epochs with custom VAE loss function
 - **Interactive**: Mouse-hover visualization of latent space
+Look a new number! I'll call it Zleven:
+<img width="236" height="247" alt="Zleven" src="https://github.com/user-attachments/assets/b141a8c8-0a04-4df2-8281-77e5aaecce3b" />
 
 ## Requirements
 
